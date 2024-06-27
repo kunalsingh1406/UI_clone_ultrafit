@@ -1,0 +1,95 @@
+/* .logo{
+    height: 30px;
+    width: 25px;
+    background-color: blue;
+} */
+.logo img{
+    
+    width: 160px;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.right ul{
+    display: flex;
+    gap: 34px;
+}
+.right ul li{
+    list-style: none;
+
+}
+
+.first{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin: 70px;
+
+}
+.first span img{
+    margin: 0 15px;
+    width: 82px;
+}
+.first span{
+    font-size: 40px;
+}
+.first p{
+    
+    font-size: 19px;
+    text-align: center;
+    width: 52vw;
+}
+.btn{
+    background-color: rgb(94, 202, 238);
+    color: white;
+    padding: 20px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 12px 0;
+    
+}
+.second{
+    max-width: 80vw;
+    margin: auto;
+    
+}
+.green{
+    background-color: rgb(80, 202, 116);
+
+}
+.item{
+    padding: 25px;
+    background-color: rgb(251, 248, 248);
+    border-radius: 12px;
+    text-align: center;
+}
+.item-lang{
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 36px;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 25px;
+}
+.download :nth-child(1){
+    font-size: 20px;
+}
+.download{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+@media screen and (max-width: 1200px){
+    .grid{
+        display: grid;
+        grid-template-columns: 1fr;
+       
+    }
+}
