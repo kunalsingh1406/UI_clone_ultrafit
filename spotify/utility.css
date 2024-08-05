@@ -1,0 +1,24 @@
+
+.flex{
+    display: flex;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.align-item{
+    align-items: center;
+}
+
+.bg-black{
+    background-color: black;
+    color: white;
+}
+.bg-grey{
+    background-color: #121212;
+}
+
+.rounded{
+    border-radius: 10px;
+}
